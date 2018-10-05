@@ -12,7 +12,7 @@ public class Conexao {
         try {
 
             this.conexao = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/meu_banco", "root", "root");
+                    "jdbc:mysql://localhost:3306/meu_banco", "usuário do banco", "senha");
 
             System.out.println("Conectado!");
 
